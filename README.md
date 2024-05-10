@@ -94,7 +94,7 @@ hlt
 ![output4](out.png)
 
 
-## Subtraction   of 8 bit numbers  ALP 
+## Subtraction  of 8 bit numbers  ALP 
 ```
  MOV al,34h
 
@@ -137,6 +137,57 @@ hlt
 ## Output  
 ![output1](out3.png)
 
+## Programs for logical  operations
+
+## AND
+```python
+Mov AL,33H
+Mov BL,44H
+AND AL,BL
+HLT
+```
+## Output 
+![AND_operation](out4.png)
+
+
+
+## OR
+```python
+Mov AL,45H
+Mov BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![OR_Operation](out5.png)
+
+
+
+## NOT
+```python
+Mov AL,65H
+NOT AL
+HLT
+
+
+```
+## Output
+
+![NOT_Operation](out6.png)
+
+
+## XOR
+```python
+org 100h
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+ret
+```
+## Output
+![Xor](out7.png)
+
 
 ## Result :
- Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified successfully.
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
